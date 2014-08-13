@@ -1,19 +1,19 @@
  <?php
  
-$a=5;
+$a=15;
 $b = 10; 
-$c = '10';
+$c = '100';
 // Shorten the next 2 statements into an if/else
 if ($a < $b) 
      {
           // output the appropriate result
-          echo "$a is less than $b";
+          echo "$a is less than $b\n";
      }
 
 else     
      {
           // output the appropriate result
-          echo "$b is greater than $a";
+          echo "$b is greater than $a\n";
      }
 
 // Shorten the next 2 statements into an if/else
