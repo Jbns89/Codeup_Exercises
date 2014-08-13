@@ -19,7 +19,8 @@
      echo "$b is greater than or eaqual to $c\n";
  }
 
- if ($b <= $c) {
+ if ($b <= $c) 
+ {
      // output the appropriate result
      echo "$b is less than or equal to $c\n";
  }
