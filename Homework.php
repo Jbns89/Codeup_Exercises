@@ -13,6 +13,8 @@ $cars=
 		'Angela'=>'2014','Ford','Mercury','Blue','201,000',
 		'Cy'=>'2004','Ford','Taurus','Red','202,000'
 	];
+var_dump($car);
+var_dump($cars);
 
 ///////////Git
 
