@@ -40,10 +40,15 @@ foreach ($books as $title => $name)
 	if($name['published']>1950)
 	{	
 	
-	echo "-------------------------------- \n $title  \n";
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\t$title\n";
+	// echo "\t\tAuthor: \t\t\t $name['author']\n";
+	// echo "\t\tYear Published:" . "\t\t\t$name['published']\n";
+	// echo "\t\tPages:" . "\t\t\t$name['pages']\n";
+
+	// //This (above) is a better way to do this (below)
 	foreach ($name as $key => $value)
 	{
-		echo  "\n" . ucfirst($key) . " - " . $value . "\n ";
+		echo  "\n\t\t" . ucfirst($key) . " : \n\t\t\t" . $value . "\n ";
 		
 	}
 	}
