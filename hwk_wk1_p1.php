@@ -20,13 +20,14 @@ $people=
 
 
 
-$position=1; 
+ 
 foreach($people as $person => $names)
 {
+	$person++;
 	
-	echo "\n $position. " . $names['name']['first'] . " " . $names['name']['last']; 
+	echo "\n" . $person."   ". $names['name']['last'] . ", " . $names['name']['first']; 
 	echo "\n    Phone: " . $names['phone_number'];
 	echo "\n    Address: " . $names['address'] . "\n";
-	$position++; 
+	
 
 }
