@@ -1,5 +1,7 @@
 <?php
+
 echo "--------Exercise 2--------\n";
+
 $things = array('Sgt. Pepper', "11", null, array(1,2,3), 3.14, "12 + 7", false, (string) 11);
 foreach ($things as $data) 
 {
@@ -13,7 +15,7 @@ foreach ($things as $data)
     }
     else if (is_bool($data)) 
     {
-        echo "{$data}\n";
+        echo "{$data} \n";
     }
     else if (is_array($data)) 
     {
@@ -30,12 +32,13 @@ foreach ($things as $data)
     
 }
 
-for ($i=0; $i < 4; $i++) 
-	{ 
-		echo "\n";
-	}
+for ($i = 0; $i < 4; $i++) 
+{ 
+    echo "\n";
+}
 
 echo "--------Exercise 3--------\n";
+
 $things = array('Sgt. Pepper', "11", null, array(1,2,3), 3.14, "12 + 7", false, (string) 11);
 foreach ($things as $data) 
 {
@@ -45,13 +48,14 @@ foreach ($things as $data)
     }        
     
 }
-	
-for ($i=0; $i < 4; $i++) 
-	{ 
-		echo "\n";
-	}
-		
+    
+for ($i = 0; $i < 4; $i++) 
+{ 
+    echo "\n";
+}
+        
 echo "--------Exercise 4--------\n";
+
 $things = array('Sgt. Pepper', "11", null, array(1,2,3), 3.14, "12 + 7", false, (string) 11);
 foreach ($things as $data) 
 {
@@ -65,7 +69,7 @@ foreach ($things as $data)
     }
     else if (is_bool($data)) 
     {
-        echo "{$data}\n";
+        echo "{$data} \n";
     }
     else if (is_array($data)) 
     {
