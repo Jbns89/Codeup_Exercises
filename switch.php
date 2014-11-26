@@ -1,7 +1,16 @@
 <?php
 
+//This exercise is showing the difference between using
+//switch and if else 
+
 date_default_timezone_set('America/Chicago');
+
 $day_of_week = date('N', strtotime("-4 day"));
+
+
+// Switch allows for cleaner code but only really necessary 
+//if you are using more than two elseifs
+
 switch($day_of_week)
 {
     case 1:
@@ -26,6 +35,8 @@ switch($day_of_week)
         echo 'Sunday' . PHP_EOL;
         break;
 }
+
+
 
 if ($day_of_week == 1) 
     {
